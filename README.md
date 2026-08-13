@@ -11,8 +11,11 @@ Landing page of the website. It features my name, contact info (linkedin, email,
 ## About Page
 Pretty self explanatory. Small section about me, my interests, who I am, etc.
 
-## Activities Page
-Contains updates on what I've been up to. Maybe I pushed new code to GitHub, stuff that I've recently been involved in.
+## Projects Page
+Contains some details about what projects I've been working on and links to their GitHub repos.
+
+## Contacts Page
+Provides links to contact me!
 
 ##
 Hopefully it actually works.
