@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Alfred Ma</title>
+    </head>
+
+    <body>
+        <nav class="nav__base">
+            <div class="nav__container">
+                <a class="nav__brand" href="index.html">A.M.</a>
+                <div class="nav__menu">
+                    <ul>
+                        <li><a class="nav__item" href="about.html">About</a></li>
+                        <li><a class="nav__item" href="projects.html">Projects</a></li>
+                        <li><a class="nav__item" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <button aria-label="Open menu" aria-expanded="false" class="nav__button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+
+        <main class="projects__base">
+            <div class="template__top">
+                <p class="template__intro">Projects</p>
+                <h1 class="template__headline">Things I've been up to.</h1>
+            </div>
+
+            <div class="template__bottom">
+                <ul class="project__list">
+                    <li>
+                        <article class="project__card">
+                            <h2 class="project__title">Personal Website</h2>
+
+                            <p class="project__summary"> A personal website built by hand with plain HTML and CSS, no frameworks, as a deliberate exercise in learning web fundamentals.</p>
+
+                            <dl class="project__details">
+                                <dt>Role</dt>
+                                <dd>Sole developer and designer—wrote every line myself, from the folder structure and static hosting setup through the semantic markup and styling of each page.</dd>
+
+                                <dt>Tech</dt>
+                                <dd>
+                                    <ul class="project__tech__list">
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                    </ul>
+                                </dd>
+
+                                <dt>Learned</dt>
+                                <dd>Reinforce the specifics here rather than saying "HTML and CSS," since concrete detail is what makes this read as real work. Pull from what you actually wrestled with: the tradeoffs of static hosting versus a server-rendered approach, why template inheritance needs a build step that pure static files don't have, semantic HTML choices (like using the article container for self-contained content), file and asset organization conventions, and how relative paths work without framework helpers.</dd>
+                            </dl>
+
+                            <a class="project__link" href="https://github.com/am-1010/am-1010.github.io">View Personal Website &rarr;</a>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+        <footer class="footer__base">
+            <p class="footer">© 2026 Alfred Ma</p>
+        </footer>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
+                
